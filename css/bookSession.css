@@ -8,11 +8,7 @@ body {
     text-align: center;
 }
     .main-header {
-<<<<<<< HEAD
-        background-image: url('headerBg.png');
-=======
-        background-image: url("../../images/headerBg.png");
->>>>>>> daee9ef91951178b0ecae34253f78fd442be2cd6
+        background-image: url("headerBg.png");
         position: sticky;
         top: 0;
     }
@@ -88,11 +84,7 @@ body {
     
     #showcase-image {
         position: absolute;
-<<<<<<< HEAD
         background: #333 url('../../images/image8.jpg');
-=======
-        background: #333 url("../../images/image8.jpg");
->>>>>>> daee9ef91951178b0ecae34253f78fd442be2cd6
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
