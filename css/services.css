@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
     .main-header {
-        background-image: url("../headerBg.png");
+        background-image: url("headerBg.png");
         position: sticky;
         top: 0;
         z-index: 1;
@@ -119,7 +119,7 @@ body {
     
     .bg-image {
         position: absolute;
-        background: #333 url("/portfolio/pot3.jpg");
+        background: #333 url("../../portfolio/pot3.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
