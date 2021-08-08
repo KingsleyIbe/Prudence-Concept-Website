@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    /* color: #fff; */
+    /* font-size: 1.1em; */
+    /* line-height: 1.1em; */
+    /* text-align: center; */
+}
+    .main-header {
+        background-image: url("/headerBg.png");
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        
+    }
+    .menu img{
+        position: relative;
+        left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .menu h2 {
+        color: #ffffff;
+        font-size: 0.9em;
+        margin-top: 0px;
+        position: relative;
+        top: 90px;
+        left: -40px;
+        padding: 0;
+    }
+    
+    
+    .menu li{
+        position: relative;
+        top: 50px;
+        left: 200px;
+        bottom: 60px;
+        margin-top: 0px;
+    }
+    .flex-child .fa {
+        color: #ffd700;
+        width: 10px;
+        text-decoration: none;
+        position: relative;
+         left: 1400px;
+         bottom: 80px;
+         margin: 5px;
+         padding: 5px;
+    }
+    
+    .flex-child .fa:hover {
+        opacity: 0.6;
+    }
+    nav{
+        display: flex;
+    }
+    nav li{
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+    }    
+    .headerMenu{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+     .menu a {
+        display: inline-block;
+        color: #fdfcfc;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        /* position: relative; */
+        font-size: 1.2em;
+        /* left: 0; */
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        background: #eaeaea;
+        color: #333;
+    }
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 h2 h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0px;
+    padding: 1em 0;
+}
+
+
+/* header showcase */
+
+#showCase {
+    min-height: 1000px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.bg-image {
+    position: absolute;
+    background: #333 url("/images/pro6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    opacity: 0.4;
+    padding-top: 100px;
+}
+
+#showCase h1 {
+    padding-top: 50%;
+    padding-bottom: 0;
+    font-size: 3em;
+}
+
+#showCase .content-wrap {
+    padding: 0 1.5em;
+}
+
+section {
+    background-color: #fff;
+    color: #000;
+}
+
+section p {
+    padding: 10px 0 0 20px;
+    margin: 0 200px 0 200px;
+}
+
+.h2 {
+    color: #008000;
+    padding: 20px;
+    margin: 0 200px 0 200px;
+}
+
+.quote {
+    position: relative;
+    border: solid 5px #008000;
+    text-align: center;
+    padding: 10px;
+    max-width: 50%;
+    left: 300px;
+    margin: 50px 0 0 50px;
+}
+
+.quote a {
+    border: solid 10px #008000;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    background-color: #008000;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.quote a:hover {
+    background-color: grey;
+    border: solid 10px grey;
+}
+
+.quote p {
+    margin: 0;
+    color: #f86707;
+    font-size: 1.3em;
+}
+
+ul {
+    margin: 0 200px 0 200px;
+}
+
+ul li {
+    color: #f86707;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.final-quote {
+    background-color: #1f501f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.final-quote h3 {
+    padding: 30px;
+}
+
+footer {
+    background-color: #032403;
+    color: #f0fff0;
+    text-align: center;
+    margin: 10px;
+    padding: 10px
+}
+
+footer a {
+    color: #f86707;
+    text-decoration: none
+}
+
+@media (max-width:780px) {
+    .headerMenu a {
+        position: relative;
+        font-size: 0.9em;
+        left: 70px;
+    }
+    .content-wrap p {
+        line-height: 1.4em;
+    }
+    section {
+        display: inline-block;
+    }
+    .quote {
+        position: relative;
+        left: 100px;
+        width: 100%;
+        margin: 50px 0 50px 30px;
+        padding: 10px;
+        line-height: 1.4em;
+    }
+    .h2 {
+        padding: 20px;
+        margin: 0 100px 0 0;
+        position: relative;
+        left: 50px;
+        line-height: 1.4em;
+    }
+    section p {
+        padding: 10px 0 0 20px;
+        margin: 0 100px 0 100px;
+        position: relative;
+        left: 10px;
+        line-height: 1.4em;
+    }
+    ul {
+        margin: 0 100px 0 100px;
+    }
+    .final-quote h3 {
+        line-height: 1.4em;
+    }
+}

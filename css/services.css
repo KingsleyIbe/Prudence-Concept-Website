@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    text-align: center;
+}
+    .main-header {
+        background-image: url("/headerBg.png");
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    
+    .menu li{
+        position: relative;
+        left: 200px;
+        margin-top: 50px;
+    }
+    .flex-child .fa {
+        color: #ffd700;
+        width: 10px;
+        text-decoration: none;
+        position: relative;
+         left: 350px;
+         padding: 0;
+         margin-top: 20px;
+    }
+    
+    .flex-child .fa:hover {
+        border: 10px solid #fff;
+        border-radius: 5px;
+    }
+    nav{
+        display: flex;
+    }
+    nav li{
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+    }
+
+    
+    .menu h2 {
+        color: #ffffff;
+        font-size: 0.7em;
+        margin-top: 70px;
+        position: relative;
+        right: 80px;
+    }
+    .menu img{
+        position: relative;
+        left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .headerMenu{
+        display: flex;
+    }
+    
+    .menu a {
+        display: inline-block;
+        color: #fdfcfc;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        position: relative;
+        font-size: 0.9em;
+        left: 0;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        background: #eaeaea;
+        color: #333;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    h1 h2 h3 {
+        margin: 0;
+        padding: 1em 0;
+    }
+    
+    p {
+        margin: 0px;
+        padding: 1em 0;
+    }
+    
+    .btn {
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        text-decoration: none;
+        padding: 1em 2em;
+        border: 1px solid #666;
+        margin: .5em 0;
+    }
+    
+    .btn:hover {
+        background: #eaeaea;
+        color: #333;
+    }
+    /* header showcase */
+    
+    #showCase {
+        min-height: 450px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .bg-image {
+        position: absolute;
+        background: #333 url("/portfolio/pot3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+        z-index: -1;
+        opacity: 0.4;
+        padding-bottom: 10%;
+    }
+    
+    #showCase h1 {
+        padding-top: 100px;
+        padding-bottom: 0;
+        font-size: 1.6em;
+    }
+    
+    #showCase .content-wrap {
+        padding: 0 1.5em;
+    }
+    
+    #section-a {
+        background: #eaeaea;
+        color: #333;
+        padding-bottom: 2em;
+        padding-top: 2em;
+    }
+    
+    #section-b {
+        padding: 2em 1em 1em;
+    }
+    
+    #section-b ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #section-b li {
+        margin-bottom: 1em;
+        background: #fff;
+        color: #333;
+    }
+    
+    .card-content {
+        padding: 1.5em;
+    }
+    
+    #section-c {
+        background: #fff;
+        color: #333;
+        padding: 2em;
+    }
+    
+    .content-wrap p {
+        margin: 20px;
+    }
+    
+    .content-wrap h1,
+    h2 {
+        line-height: 1.4em;
+    }
+    
+    #section-d .box {
+        padding: 2em;
+        color: #fff;
+    }
+    
+    #section-d .box:first-child {
+        background: #008000;
+    }
+    
+    .box a {
+        text-decoration: none;
+        color: #fff;
+        border: solid 5px #f86707;
+        padding: 5px
+    }
+    
+    .box a:hover {
+        background-color: #eaeaea;
+        color: #032403;
+    }
+    
+    .box:first-child {
+        background: #032403;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .box {
+        background: #fff;
+        color: #000;
+        padding: 10px;
+    }
+    
+    footer {
+        background-color: #032403;
+        color: #f0fff0;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    footer a {
+        color: #f86707;
+        text-decoration: none;
+    }
+    /* Media Query */
+    
+    @media(min-width:780px) {
+        /* .menu a {
+            display: inline-block;
+            color: #fdfcfc;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            /* border: 5px solid gold; */
+            /* position: relative;
+            font-size: 1.5em;
+            left: 100px;
+            text-decoration: none; */
+        /* } */ 
+        .menu a {
+            display: inline-block;
+            color: #fdfcfc;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            position: relative;
+            font-size: 0.9em;
+            left: 50px;
+            text-decoration: none;
+        }
+        
+        .menu a:hover {
+            background: #eaeaea;
+            color: #333;
+        }
+        .flex-child .fa {
+            
+            width: 30px;
+             left: 550px;
+             margin-top: 20px;
+             padding: 5px;
+        }
+        
+        .flex-child .fa:hover {
+            /* border: 5px solid #fff; */
+            /* border-radius: 3px; */
+            opacity: 0.6;
+        }
+        #showCase {
+            min-height: 1000px;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        #showCase .bg-image {
+            padding-top: 100px;
+            position: absolute;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 1000px;
+        }
+        #showCase h1 {
+            padding-top: 50%;
+            font-size: 3em;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+        }
+        .content-wrap,
+        #section-b ul {
+            grid-column: 2/4;
+        }
+        .box,
+        .about-company {
+            grid-column: span 2;
+        }
+        #section-b ul {
+            display: flex;
+            justify-content: space-around;
+        }
+        #section-b li {
+            width: 31%;
+        }
+    }

@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    /* color: #fff; */
+    /* font-size: 1.1em; */
+    /* line-height: 1.1em; */
+    /* text-align: center; */
+}
+    .main-header {
+        background-image: url("/headerBg.png");
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        
+    }
+    .menu img{
+        position: relative;
+        left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .menu h2 {
+        color: #ffffff;
+        font-size: 1em;
+        margin-top: 0px;
+        position: relative;
+        left: 20px;
+    }
+    
+    
+    .menu li{
+        position: relative;
+        left: 500px;
+        bottom: 60px;
+        margin-top: 0px;
+    }
+    .flex-child .fa {
+        color: #ffd700;
+        width: 10px;
+        text-decoration: none;
+        position: relative;
+         left: 800px;
+         margin: 5px;
+         padding: 5px;
+    }
+    
+    .flex-child .fa:hover {
+        opacity: 0.6;
+    }
+    nav{
+        display: flex;
+    }
+    nav li{
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+    }    
+    .headerMenu{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+     .menu a {
+        display: inline-block;
+        color: #fdfcfc;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        /* position: relative; */
+        font-size: 1.2em;
+        /* left: 0; */
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        background: #eaeaea;
+        color: #333;
+    }
+
+#myCarousel .carousel-caption {
+    color: #db0e0e;
+    right: 30%;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    /*top: auto;*/
+    /*position: relative;*/
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+#myCarousel .carousel-caption h1 {
+    font-size: 4em;
+}
+
+#myCarousel .carousel-caption p {
+    font-size: 2em;
+}
+
+
+/* .displayQuote {
+    border: 10px solid green;
+    padding: 10px;
+    margin: 10px;
+    right: 30%;
+    text-align: center;
+    max-width: 500px;
+    left: auto;
+    top: 50%;
+    bottom: initial;
+    transform: translateX(-50%);
+} */
+
+
+/* #welcome-text {
+    position: absolute;
+    text-align: center;
+    content-visibility: initial;
+} */
+
+.benefits {
+    display: inline-block;
+    margin: 10px;
+    padding: 1em
+}
+
+.benefits p {
+    display: flex
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.asideElements {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between
+}
+
+
+/* .carousel {
+    width: 100%;
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+    padding: 5px;
+    margin: 5px
+} */
+
+
+/* .carousel .carousel-image,
+.carousel .carousel-image--hidden {
+    display: none
+}
+
+.carousel-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto
+}
+ */
+
+
+/* .carousel .carousel-image--visible {
+    display: block;
+    animation: fadeVisibility .5s
+}
+
+.carousel .carousel-buttons button {
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: gold
+} */
+
+footer {
+    background-color: #032403;
+    color: #f0fff0;
+    text-align: center;
+    margin: 10px;
+    padding: 10px
+}
+
+footer a {
+    color: #f86707;
+    text-decoration: none
+}
+
+.style-Text {
+    color: #00f;
+    font-size: 1.2em
+}
+
+.style-Text:hover {
+    color: #dc143c;
+    font-size: 1.5em
+}
+
+@media(max-width:780px) {
+    .headerMenu a {
+        display: inline-flex;
+        position: relative;
+        left: 10px;
+    }
+    .flex {
+        display: block
+    }
+}

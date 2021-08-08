@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    text-align: center;
+}
+    .main-header {
+        background-image: url("/headerBg.png");
+        position: sticky;
+        top: 0;
+    }
+    
+    .menu li{
+        position: relative;
+        left: 200px;
+        margin-top: 50px;
+    }
+    .flex-child .fa {
+        color: #ffd700;
+        width: 10px;
+        text-decoration: none;
+        position: relative;
+         left: 600px;
+         padding: 0;
+         margin-top: 20px;
+    }
+    
+    .flex-child .fa:hover {
+        opacity: 0.6;
+    }
+    nav{
+        display: flex;
+    }
+    nav li{
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+    }
+
+    
+    .menu h2 {
+        color: #ffffff;
+        font-size: 0.7em;
+        margin-top: 70px;
+        position: relative;
+        right: 80px;
+    }
+    .menu img{
+        position: relative;
+        left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .headerMenu{
+        display: flex;
+    }
+    
+    .headerMenu a {
+        display: inline-block;
+        color: #fdfcfc;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        position: relative;
+        font-size: 0.9em;
+        left: 0;
+        text-decoration: none;
+    }
+    
+    .headerMenu a:hover {
+        background: #eaeaea;
+        color: #333;
+    }
+    #showcase-image {
+        min-height: 450px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    #showcase-image {
+        position: absolute;
+        background: #333 url("/images/image8.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+        z-index: -1;
+        opacity: 100%;
+        padding-top: 40%;
+        margin: 10px;
+    }
+    
+    .image-text {
+        padding-top: 100px;
+        padding-bottom: 0;
+        font-size: 5em;
+        color: #fff;
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    #showcase-image .content-wrap {
+        padding: 0 1.5em;
+    }
+    
+    .contact-page {
+        display: flex;
+        align-items: center;
+        margin: 50px 100px 50px 100px;
+        padding-top: 70%;
+        line-height: 1.4em;
+    }
+    
+    .contact {
+        display: inline-flex;
+        text-align: center;
+        position: relative;
+        word-wrap: initial;
+        line-height: 1.4em;
+        margin-top: 70px;
+    }
+    
+    .form {
+        color: #ffd700;
+    }
+    
+    #interest,
+    #role,
+    #event-date,
+    #first-name,
+    #last-name,
+    #email,
+    #phone-number,
+    #venue {
+        padding: 10px;
+        width: 15em;
+    }
+    
+    #interest:hover,
+    #role:hover,
+    #event-date:hover,
+    #first-name:hover,
+    #last-name:hover,
+    #email:hover,
+    #phone-number:hover,
+    #venue:hover,
+    #notes:hover,
+    #feedback:hover {
+        border: solid 5px red;
+    }
+    
+    #submit-btn {
+        background-color: #008000;
+        width: 15em;
+        padding: 10px;
+        color: #fff;
+        border-radius: 10px;
+    }
+    
+    #submit-btn:hover {
+        background-color: olivedrab;
+        border-radius: 20px;
+    }
+    
+    footer {
+        background-color: #032403;
+        color: #f0fff0;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    footer a {
+        color: #f86707;
+        text-decoration: none;
+    }
+    
+    @media(max-width:780px) {
+        .contact-page {
+            display: block;
+        }
+        .contact1 {
+            padding-top: 100%;
+            margin: 100px 0 0 0;
+            line-height: 1.4em;
+        }
+        .contact {
+            line-height: 1.4em;
+            margin-top: 70px;
+        }
+        .image-text {
+            font-size: 1.6em;
+            padding-top: 35%;
+        }
+        form #feedback {
+            width: 200px;
+        }
+        form #notes {
+            width: 200px;
+        }
+    }
