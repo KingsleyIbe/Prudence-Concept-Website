@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+     background: #333;
     color: #fff;
     font-size: 1.1em;
     line-height: 1.1em;
-    text-align: center;
+    text-align: center; 
 }
     .main-header {
-        background-image: url("headerBg.png");
+        background-image: url("/headerBg.png");
         position: sticky;
         top: 0;
     }
