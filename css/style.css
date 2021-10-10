@@ -8,7 +8,7 @@ body {
     /* text-align: center; */
 }
     .main-header {
-        background-image: url("/images/headerBg.png");
+        background-image: url("../images/headerBg.png");
         position: sticky;
         top: 0;
         z-index: 1;
