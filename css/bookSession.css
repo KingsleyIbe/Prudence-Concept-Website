@@ -84,7 +84,7 @@ body {
     
     #showcase-image {
         position: absolute;
-        background: #333 url('../../images/image8.jpg');
+        background: #333 url('../images/image8.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
